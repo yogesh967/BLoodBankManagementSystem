@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Segoe UI';
+  color: #2b2e42;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  overflow-x: hidden !important;
+  height: 100%;
+}
+
+.nopadding {
+   padding-left: 0 !important;
+   padding-right: 0 !important;
+}
+
+h2 {
+  padding: 0px 0px 20px 0px;
+  line-height: 40px;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #fff;
+}
+
+.adminbg {
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/admin_img.png");
+}
+
+.admin_login {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  margin: 0 auto;
+}
+
+.full-height {
+  height: 100%;
+}
+
+/*****************login form start***************/
+
+.login_form {
+  margin: 0 auto;
+  padding: 60px 30px;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #ced4da;
+}
+
+.login_form img{
+  margin: 0 auto;
+  padding-bottom: 10px;
+  width: 200px;
+  display: block;
+}
+
+.loginacc {
+  padding: 5px 0px 30px 0px;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form-control {
+  font-size :14px;
+}
+
+.input-group-addon{
+  margin: 0px;
+  padding: 5px 15px;
+  color:#2b2e42;
+  background-color: #fff;
+  font-size: 14px;
+  border-left: 1px solid #ced4da;
+  border-top: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
+  border-top-left-radius: .25rem;
+  border-bottom-left-radius: .25rem;
+}
+
+.btnlogin {
+  margin: 10px 0px 0px 0px;
+  background-color: #d80427;
+  color: #fff;
+}
+
+.btn {
+  font-size: 14px;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+  background-color: #ef233b;
+  color: #fff;
+  border-color: #ef233b;
+ }
+
+.error_label{
+  margin: 0px;
+  padding: 5px 0px 0px 0px;
+  color : red;
+}
+
+/*****************login form end*****************/
+
+@media (max-width: 991.98px) {
+  body {
+    font-size: 13px;
+  }
+
+  h2 {
+    padding: 0px 0px 20px 0px;
+    font-size: 30px;
+  }
+
+  .form-control {
+    font-size :13px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  h2 {
+    padding: 0px 0px 30px 0px;
+    font-size: 28px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+
+  .form-control {
+    font-size :13px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+  h2 {
+    padding: 0px 0px 25px 0px;
+    font-size: 28px;
+  }
+
+  body {
+    font-size: 13px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+
+  .form-control {
+    font-size :13px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  h2 {
+    padding: 0px 0px 25px 0px;
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+
+  .form-control {
+    font-size :13px;
+  }
+}

@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+body {
+  margin: 0 auto;
+  padding: 0px;
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  color: #2b2e42;
+  font-weight: 400;
+  text-align: center;
+  overflow-x: hidden !important;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.nopadding {
+   padding-left: 0 !important;
+   padding-right: 0 !important;
+}
+
+.errorWrap {
+width: 100%;
+padding: 10px;
+margin: 0 0 20px 0;
+text-align: left;
+background: #fff;
+border-left: 4px solid #dd3d36;
+-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.succWrap{
+  width: 100%;
+  padding: 10px;
+  margin: 0 0 20px 0;
+  background: #fff;
+  text-align: left;
+  border-left: 4px solid #5cb85c;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px 0px 40px 0px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 35px;
+  color: #d80427;
+}
+
+p, h3, ul {
+  text-align: left;
+}
+
+.donor_reg {
+  padding: 80px 0px;
+}
+
+
+/*****************header start*********************/
+header {
+  padding: 20px 0px;
+  background-color: #2b2e42;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/***********logo************/
+.logobg {
+  padding: 0px 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+.logobg img {
+  width: 200px;
+}
+
+/***********login**************/
+.loginbg {
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+  text-align: right;
+}
+
+.loginbtn {
+  margin-right: 20px;
+  background-color: transparent;
+  font-size: 14px;
+  color:#edf2f4;
+  border-color: #d80427;
+}
+
+.signupbtn
+{
+  font-size: 14px;
+  background-color: #d80427;
+  color:#edf2f4;
+  border-color: #d80427;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+
+  background-color: #ef233b;
+  color:#edf2f4;
+  border-color: #ef233b;
+ }
+
+ .btn {
+   font-size: 14px;
+ }
+
+ .form-control {
+   font-size: 14px;
+ }
+
+/*****************header end*********************/
+
+@media (max-width: 991.98px) {
+  body {
+    font-size: 13px;
+  }
+
+  h1 {
+    padding: 0px 0px 40px 0px;
+    font-size: 30px;
+  }
+
+  .form-control {
+    font-size: 13px;
+  }
+
+  .donor_reg {
+    padding: 60px 0px;
+  }
+
+  header {
+    padding: 15px 0px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+
+  .signupbtn
+  {
+    font-size: 13px;
+  }
+
+  .loginbtn {
+    font-size: 13px;
+  }
+
+  .logobg img {
+    width: 180px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  h1 {
+    padding: 0px 0px 30px 0px;
+    font-size: 28px;
+  }
+
+  .form-control {
+    font-size: 13px;
+  }
+
+  .donor_reg {
+    padding: 50px 0px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+  h1 {
+    padding: 0px 0px 25px 0px;
+    font-size: 28px;
+  }
+
+  .donor_reg {
+    padding: 50px 10px;
+  }
+
+  body {
+    font-size: 13px;
+  }
+
+  header {
+    padding: 15px 0px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+
+  .form-control {
+    font-size: 13px;
+  }
+
+  .signupbtn
+  {
+    font-size: 13px;
+  }
+
+  .loginbtn {
+    font-size: 13px;
+  }
+
+  .loginbg {
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .logobg {
+    padding-bottom: 20px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .logobg img {
+    width: 160px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  h1 {
+    padding: 0px 0px 25px 0px;
+    font-size: 24px;
+  }
+
+  .form-control {
+    font-size: 13px;
+  }
+
+  .donor_reg {
+    padding: 40px 10px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+}
+
+/*****************nev start*********************/
+
+.navigation {
+  background-color: #edf2f4;
+  text-align: center;
+  border-bottom: 1px solid;
+  border-color: #8c98ad;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  color: #2b2e42;
+  text-align: center;
+  text-decoration: none;
+}
+
+#collapsibleNavbar .active {
+  color: #2b2e42;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ef233b;
+}
+
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+}
+/*****************nav end*********************/
+
+@media (max-width: 991.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 13px;
+  }
+
+  .dropdown-item {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+/**********************form start********************/
+
+.tablehead {
+  font-family: 'Segoe UI';
+  border-bottom: 1px solid;
+  border-color: #8c98ad;
+  color: #2b2e42;
+  text-align: left;
+}
+
+sup {
+  color : red;
+}
+
+.forminput label {
+  text-align: left;
+}
+
+.error_label{
+  padding-top: 5px;
+  color : red;
+}
+
+.success {
+  color: #399c53;
+  font-weight: bold;
+  text-align: center;
+}
+
+.forminput {
+  text-align: left;
+}
+
+/**********************form end********************/
+
+/**************footer start*************/
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2b2e42;
+  text-align: left;
+}
+
+.footer_list {
+  padding: 5px 0px;
+  margin: 0px;
+  color: #8c98ad;
+  list-style: none;
+  text-align: left;
+}
+
+.footer_list .aboutli {
+  padding-left: 0px;
+}
+
+.footer_list li {
+  padding: 0px 15px;
+  display: inline;
+  font-size: 14px;
+  color: #8c98ad;
+}
+
+.footer_list li a {
+  color: #8c98ad;
+}
+
+.footer_list li a:hover {
+  color: #ef233b;
+  text-decoration: none;
+}
+
+.social_icon{
+  text-align: right;
+}
+
+.facebook{
+  padding: 0px;
+  font-size: 42px;
+  color: #8c98ad;
+  display: inline-block;
+}
+
+.twitter{
+  padding: 0px 0px 0px 15px;
+  font-size: 42px;
+  color: #8c98ad;
+  display: inline-block;
+}
+
+.social_icon a {
+  color: #8c98ad;
+}
+
+.hidemob {
+  display: block;
+}
+
+.hidedesk {
+  display: none;
+}
+
+.social_icon a:hover {
+  color: #ef233b;
+  text-decoration: none;
+}
+/**************footer end*************/
+
+@media (max-width: 991.98px) {
+  .social_icon {
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .facebook{
+    text-align: center;
+  }
+
+  .hidemob {
+    display: block;
+  }
+
+  .hidedesk {
+    display: none;
+  }
+
+  .footer_list li {
+    font-size: 13px;
+  }
+
+  .twitter{
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .facebook{
+    font-size: 30px;
+  }
+
+  .twitter{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  footer {
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+  }
+
+  .footer_list li {
+    font-size: 13px;
+  }
+
+  .hidemob {
+    display: none;
+  }
+
+  .hidedesk {
+    display: block;
+  }
+
+  .social_icon {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .facebook{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .twitter{
+    text-align: center;
+    font-size: 30px;
+  }
+}

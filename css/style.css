@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+body {
+  margin: 0 auto;
+  font-family: 'Segoe UI';
+  color: #2b2e42;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  overflow-x: hidden !important;
+}
+
+.nopadding {
+   padding-left: 0 !important;
+   padding-right: 0 !important;
+}
+
+h1 {
+  padding: 0px 0px 60px 0px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: #d80427;
+}
+
+.btn {
+  font-size: 14px;
+}
+
+/*****************header start*********************/
+header {
+  padding: 20px 0px;
+  background-color: #2b2e42;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/***********logo************/
+.logobg {
+  padding: 0px 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+.logobg img {
+  width: 200px;
+}
+
+/***********login**************/
+.loginbg {
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+  text-align: right;
+}
+
+.loginbtn {
+  margin-right: 20px;
+  background-color: transparent;
+  font-size: 14px;
+  color:#edf2f4;
+  border-color: #d80427;
+}
+
+.signupbtn
+{
+  font-size: 14px;
+  background-color: #d80427;
+  color:#edf2f4;
+  border-color: #d80427;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+
+  background-color: #ef233b;
+  color:#edf2f4;
+  border-color: #ef233b;
+ }
+
+/*****************header end*********************/
+
+@media (max-width: 991.98px) {
+  body {
+    font-size: 13px;
+  }
+
+  header {
+    padding: 15px 0px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+
+  .signupbtn
+  {
+    font-size: 13px;
+  }
+
+  .loginbtn {
+    font-size: 13px;
+  }
+
+  .logobg img {
+    width: 180px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  h1 {
+    padding: 0px 0px 40px 0px;
+    font-size: 30px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+  h1 {
+    padding: 0px 0px 40px 0px;
+    font-size: 30px;
+  }
+
+  body {
+    font-size: 13px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+
+  header {
+    padding: 15px 0px;
+  }
+
+  .signupbtn
+  {
+    font-size: 13px;
+  }
+
+  .loginbtn {
+    font-size: 13px;
+  }
+
+  .loginbg {
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .logobg {
+    padding-bottom: 20px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .logobg img {
+    width: 160px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  h1 {
+    padding: 0px 0px 30px 0px;
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+}
+
+/*****************nev start*********************/
+
+.navigation {
+  background-color: #edf2f4;
+  text-align: center;
+  border-bottom: 1px solid;
+  border-color: #8c98ad;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  color: #2b2e42;
+  text-align: center;
+  text-decoration: none;
+}
+
+#collapsibleNavbar .active {
+  color: #2b2e42;
+  font-weight: bold;
+}
+
+.dropdown-item {
+  font-size: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ef233b;
+}
+
+.dropdown-item {
+  font-size: 13px;
+  text-align: center;
+}
+
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+}
+/*****************nav end*********************/
+@media (max-width: 991.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 13px;
+  }
+
+  .dropdown-item {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 13px;
+  }
+
+  .dropdown-item {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+}
+
+}
+
+/*******************banner start****************/
+
+.smallbanner {
+display: none;
+width: 100%;
+}
+
+
+/*******************banner end****************/
+
+@media (max-width: 575.98px) {
+  .smallbanner {
+    display: block;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+}
+
+/*****************blood tip start****************/
+
+.blood_tip{
+  padding: 100px 0px;
+  margin: 0px;
+}
+
+.btbox {
+  padding: 0px;
+}
+
+.btcontent {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* not active */
+
+.nav-pills .nav-link {
+    padding: 1px 5px;
+    margin: 0px 15px 10px 0px;
+    font-size: 12px;
+    background-color: #edf2f4;
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: #edf2f4;
+    color: #242424;
+}
+
+/* active*/
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #ef233b;
+    color: #edf2f4;
+    border-color: #ef233b;
+}
+
+.btcontent p {
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  text-align: left;
+  color: #242424;
+}
+
+.btcontent p ul, li {
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  text-align: left;
+  color: #242424;
+}
+
+.btimg{
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+  width: 100%;
+}
+
+/*****************blood tip end****************/
+
+@media (max-width: 991.98px) {
+  .blood_tip{
+    padding: 80px 0px;
+    margin: 0px;
+  }
+
+  .nav-pills .nav-link {
+      font-size: 11px;
+  }
+
+  .btcontent p {
+    font-size: 13px;
+  }
+
+  .btcontent p ul, li {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .btimg{
+    display: none;
+  }
+
+  .blood_tip{
+    padding: 70px 0px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 575.98px) {
+
+  .blood_tip{
+    padding: 60px 0px;
+    margin: 0px;
+  }
+
+  .btimg{
+    display: none;
+  }
+
+  .btbox {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .nav-pills .nav-link {
+      font-size: 11px;
+  }
+
+  .btcontent p {
+    font-size: 13px;
+  }
+
+  .btcontent p ul, li {
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width: 479.98px) {
+  .blood_tip{
+    padding: 45px 0px;
+    margin: 0px;
+  }
+}
+
+/*****************Learn start****************/
+.learn_blood{
+  padding: 100px 0px;
+  background-color: #f5f5f5;
+}
+
+.learnrow2{
+  padding: 0px 0px 0px 0px;
+}
+
+.learn_blood .container-lg{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.learn_blood .container-md{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/***table style start****/
+
+.learntable {
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.tablebox {
+  padding: 0px;
+}
+
+.tableimgbox {
+  padding: 0px;
+  text-align: left;
+}
+
+.tableimgbox img {
+  text-align: left;
+  width: 383px;
+}
+
+.table td, .table th {
+  padding: 8px;
+}
+
+.tr1 {
+  background-color: #ef233b;
+  color: #fff;
+}
+
+.bgcolor {
+  color: #ef233b;
+}
+
+/***table style end****/
+
+/*****************learn end****************/
+@media (max-width: 991.98px) {
+  .learn_blood{
+    padding: 80px 0px;
+    background-color: #f5f5f5;
+  }
+
+  .learntable {
+    font-size: 13px;
+  }
+
+  .tableimgbox img {
+    padding-right: 10px;
+    padding-top: 8px;
+    width: auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .learn_blood{
+    padding: 70px 0px;
+  }
+
+  .tableimgbox img {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .learn_blood{
+    padding: 60px 0px;
+  }
+
+  .tableimgbox img {
+    display: none;
+  }
+
+  .learnrow2 {
+    padding: 0px 20px;
+  }
+
+  .learntable {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .learn_blood{
+    padding: 45px 0px;
+  }
+}
+
+/**************search blood bank start*************/
+
+.scroll-content {
+  padding: 100px 0px;
+  margin: 0px;
+  text-align: left;
+  font-size: 13px;
+}
+
+.my-custom-scrollbar {
+position: relative;
+height: 320px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+
+.mainbox {
+  padding: 20px 15px 20px 15px;
+  background-color: #F5F5F5;
+  border: 1px solid #F5F5F5;
+  border-radius: 7px;
+}
+
+.mainbox h5 {
+  margin: 0;
+  padding: 0px 0px 15px 10px;
+  color: #ef233b;
+}
+
+.dname{
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.viewbtn {
+  padding: 0px;
+  font-size: 14px;
+}
+
+
+.bgroup {
+  font-size: 16px;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rowborder {
+  border-bottom: 1px solid #dfe2e8;
+}
+/**************search blood bank end*************/
+@media (max-width: 991.98px) {
+  .scroll-content {
+    padding: 80px 0px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .scroll-content {
+    padding: 70px 0px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .scroll-content {
+    padding: 60px 0px;
+  }
+
+.Rdonor {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .scroll-content {
+    padding: 45px 0px;
+  }
+}
+
+/**************footer start*************/
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2b2e42;
+  text-align: left;
+}
+
+.footer_list {
+  padding: 5px 0px;
+  margin: 0px;
+  color: #8c98ad;
+  list-style: none;
+  text-align: left;
+}
+
+.footer_list .aboutli {
+  padding-left: 0px;
+}
+
+.footer_list li {
+  padding: 0px 15px;
+  display: inline;
+  font-size: 14px;
+  color: #8c98ad;
+}
+
+.footer_list li a {
+  color: #8c98ad;
+}
+
+.footer_list li a:hover {
+  color: #ef233b;
+  text-decoration: none;
+}
+
+.social_icon{
+  text-align: right;
+}
+
+.facebook{
+  padding: 0px;
+  font-size: 42px;
+  color: #8c98ad;
+  display: inline-block;
+}
+
+.twitter{
+  padding: 0px 0px 0px 15px;
+  font-size: 42px;
+  color: #8c98ad;
+  display: inline-block;
+}
+
+.social_icon a {
+  color: #8c98ad;
+}
+
+.hidemob {
+  display: block;
+}
+
+.hidedesk {
+  display: none;
+}
+
+.social_icon a:hover {
+  color: #ef233b;
+  text-decoration: none;
+}
+/**************footer end*************/
+
+@media (max-width: 991.98px) {
+  .social_icon {
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .facebook{
+    text-align: center;
+  }
+
+  .hidemob {
+    display: block;
+  }
+
+  .hidedesk {
+    display: none;
+  }
+
+  .footer_list li {
+    font-size: 13px;
+  }
+
+  .twitter{
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .facebook{
+    font-size: 30px;
+  }
+
+  .twitter{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  footer {
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+  }
+
+  .footer_list li {
+    font-size: 13px;
+  }
+
+  .hidemob {
+    display: none;
+  }
+
+  .hidedesk {
+    display: block;
+  }
+
+  .social_icon {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .facebook{
+    font-size: 30px;
+  }
+
+  .twitter{
+    font-size: 30px;
+  }
+}
